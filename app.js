@@ -22,7 +22,7 @@ function addKitten(event) {
 
     kittens.push(kitten)
     saveKittens()
-  }else{
+  }else {
     alert("You alreaady have a kitten with that name.")
   }
   form.reset()
